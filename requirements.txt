@@ -2,3 +2,4 @@ spotipy
 pandas
 matplotlib
 mysql-connector-python
+flask

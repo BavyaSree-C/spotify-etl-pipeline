@@ -1,6 +1,9 @@
 create database spotify_db;
 
 use spotify_db;
+
+drop TABLE spotify_tracks;
+
 CREATE TABLE IF NOT EXISTS spotify_tracks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     track_name VARCHAR(255),
@@ -11,6 +14,12 @@ CREATE TABLE IF NOT EXISTS spotify_tracks (
 );
 
 select * from spotify_tracks;
+
+select count(*) as no_of_track , artist from spotify_tracks
+group by artist 
+order by no_of_track desc;
+
+
 
 SELECT track_name, artist, album, popularity
 FROM spotify_tracks

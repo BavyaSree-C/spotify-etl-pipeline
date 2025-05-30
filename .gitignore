@@ -4,6 +4,7 @@ venv/
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
+.cache
 
 # Ignore other common Python stuff
 *.egg-info/
