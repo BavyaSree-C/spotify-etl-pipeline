@@ -6,8 +6,8 @@ import re
 
 # Setting up client credentials
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='895b413cdcad4ca3a70f8a55cf8aefba',
-    client_secret='fb20ec8664a54294a4e7449162215767'
+    client_id='ENTER CLIENT HERE',
+    client_secret='ENTER SECRET KEY'
 ))
 
 #full track url(example:  Señorita by Shawn Mendes)
